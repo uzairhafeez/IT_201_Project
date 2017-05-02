@@ -1,0 +1,1326 @@
+﻿Log file open, 05/11/16 00:16:59
+LogInit:Display: Running engine for game: HafeezSpaceShooter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-555234478) SRandInit(-555234477).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.065051
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.11-04.16.59:971][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.11-04.16.59:971][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.11-04.16.59:982][  0]LogInit: Computer: UZAIR_HAFEEZ
+[2016.05.11-04.16.59:982][  0]LogInit: User: UzairHafeez
+[2016.05.11-04.16.59:982][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.05.11-04.16.59:982][  0]LogInit: High frequency timer resolution =2.240905 MHz
+[2016.05.11-04.16.59:982][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.05.11-04.16.59:982][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.11-04.16.59:982][  0]LogMemory: Process Physical Memory: 310.47 MB used, 310.47 MB peak
+[2016.05.11-04.16.59:982][  0]LogMemory: Process Virtual Memory: 315.26 MB used, 315.26 MB peak
+[2016.05.11-04.16.59:982][  0]LogMemory: Physical Memory: 1844.56 MB used, 3979.78 MB total
+[2016.05.11-04.16.59:982][  0]LogMemory: Virtual Memory: 629.86 MB used, 134217728.00 MB total
+[2016.05.11-04.17.00:020][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.11-04.17.00:567][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.11-04.17.00:579][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2016.05.11-04.17.00:579][  0]LogD3D11RHI:       32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.05.11-04.17.00:581][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.11-04.17.00:581][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.05.11-04.17.00:581][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.11-04.17.00:585][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.11-04.17.00:585][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2016.05.11-04.17.00:585][  0]LogD3D11RHI:   Driver Version: 10.18.14.4062 (internal 10.18.14.4062)
+[2016.05.11-04.17.00:585][  0]LogD3D11RHI:      Driver Date: 12-15-2014
+[2016.05.11-04.17.00:585][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.05.11-04.17.00:594][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.11-04.17.00:604][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Intermediate/Shaders/WorkingDirectory/4300/).
+[2016.05.11-04.17.00:604][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/UZAIRH~1/AppData/Local/Temp/UnrealShaderWorkingDir/4111B60E45A84C57090AE288741929D1/'.
+[2016.05.11-04.17.00:604][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.11-04.17.03:160][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.11-04.17.03:169][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.11-04.17.03:176][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.11-04.17.03:182][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.11-04.17.03:188][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.11-04.17.03:193][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.11-04.17.03:200][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.11-04.17.03:204][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.11-04.17.03:209][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.11-04.17.03:213][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.11-04.17.03:218][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.11-04.17.03:226][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.11-04.17.03:226][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.11-04.17.03:228][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.11-04.17.03:251][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.11-04.17.03:255][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.11-04.17.03:259][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.11-04.17.03:266][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.11-04.17.03:271][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.11-04.17.03:271][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.11-04.17.03:375][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.11-04.17.04:144][  0]LogDerivedDataCache: Loaded boot cache 0.77s 46MB C:/Users/Uzair Hafeez/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.11-04.17.04:187][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Uzair Hafeez/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.11-04.17.04:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.11-04.17.04:187][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.11-04.17.04:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.11-04.17.04:187][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.11-04.17.04:273][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.11-04.17.04:286][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Uzair Hafeez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.11-04.17.07:521][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.11-04.17.07:522][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.11-04.17.07:743][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.11-04.17.08:057][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.11-04.17.08:057][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.11-04.17.08:057][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.11-04.17.09:295][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.11-04.17.09:295][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.11-04.17.09:295][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.11-04.17.09:312][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.11-04.17.10:200][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.11-04.17.10:200][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.11-04.17.13:351][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.11-04.17.13:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.11-04.17.13:352][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.11-04.17.13:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.11-04.17.13:352][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.11-04.17.13:352][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.11-04.17.27:566][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.11-04.17.28:116][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2016.05.11-04.17.29:654][  0]SourceControl: Info Source control is disabled
+[2016.05.11-04.17.29:657][  0]SourceControl: Info Source control is disabled
+[2016.05.11-04.17.29:742][  0]SourceControl: Info Source control is disabled
+[2016.05.11-04.17.29:817][  0]SourceControl: Info Source control is disabled
+[2016.05.11-04.17.30:828][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.11-04.17.31:061][  0]LogEngine: Initializing Engine...
+[2016.05.11-04.17.31:451][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.11-04.17.31:458][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.17.31:474][  0]LogInit: FAudioDevice initialized.
+[2016.05.11-04.17.31:515][  0]LogDerivedDataCache: Saved boot cache 0.04s 46MB C:/Users/Uzair Hafeez/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.11-04.17.31:522][  0]LogInit: Texture streaming: Enabled
+[2016.05.11-04.17.31:726][  0]LogInit: Transaction tracking system initialized
+[2016.05.11-04.17.31:873][  0]BlueprintLog: New page: Editor Load
+[2016.05.11-04.17.32:463][  0]LocalizationService: Info Localization service is disabled
+[2016.05.11-04.17.33:321][  0]LogConsoleResponse:Display: 
+[2016.05.11-04.17.35:139][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.11-04.17.35:139][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.11-04.17.35:139][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.11-04.17.35:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/' took 0.01s
+[2016.05.11-04.17.35:569][  0]SourceControl: Info Source control is disabled
+[2016.05.11-04.17.35:569][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.11-04.17.35:596][  0]LightingResults: New page: Lighting Build
+[2016.05.11-04.17.35:601][  0]MapCheck: New page: Map Check
+[2016.05.11-04.17.35:601][  0]LightingResults: New page: Lighting Build
+[2016.05.11-04.17.38:042][  0]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.17.38:171][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.11-04.17.38:172][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.11-04.17.38:270][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.151ms to complete.
+[2016.05.11-04.17.38:270][  0]LogFileHelpers: Loading map 'Main' took 2.701
+[2016.05.11-04.17.38:556][  0]LogCollectionManager: Loaded 0 collections in 0.003429 seconds
+[2016.05.11-04.17.38:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Collections/' took 0.01s
+[2016.05.11-04.17.38:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Developers/UzairHafeez/Collections/' took 0.01s
+[2016.05.11-04.17.38:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Collections/' took 0.01s
+[2016.05.11-04.17.38:612][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.05.11-04.17.38:621][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 1979 classes and 343 folders.
+[2016.05.11-04.17.38:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.11-04.17.38:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.11-04.17.38:648][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.05.11-04.17.38:656][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.05.11-04.17.38:746][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.11-04.17.39:905][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.11-04.17.39:957][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.11-04.17.40:118][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.11-04.17.40:130][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.11-04.17.40:235][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.05.11-04.17.40:236][  0]LogLoad: Full Startup: 41.28 seconds (BP compile: 0.43 seconds)
+[2016.05.11-04.17.40:236][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.11-04.17.40:236][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.11-04.17.40:255][  0]LogOcInput: OculusInput pre-init called
+[2016.05.11-04.17.40:358][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.05.11-04.17.40:735][  0]LogRenderer: Reallocating scene render targets to support 876x380 (Frame:2).
+[2016.05.11-04.17.41:485][  1]LogAssetRegistry: Asset discovery search completed in 13.3922 seconds
+[2016.05.11-04.17.41:496][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.11-04.17.41:497][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.011698 seconds (updated 0 objects)
+[2016.05.11-04.19.27:547][294]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.11-04.20.31:316][100]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.20.31:680][100]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.20.31:689][100]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.20.31:715][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.05.11-04.20.31:738][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.11-04.20.31:742][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.11-04.20.31:796][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.11-04.20.31:817][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.05.11-04.20.31:821][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.05.11-04.20.31:852][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.05.11-04.20.31:856][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.05.11-04.20.31:860][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.20.31:875][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_3, compiling. 
+[2016.05.11-04.20.31:893][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_4, compiling. 
+[2016.05.11-04.20.38:071][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.20.38:160][389]PIE: New page: PIE session: Main (May 10, 2016, 7:20:38 PM)
+[2016.05.11-04.20.38:160][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.20.38:162][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002816s)
+[2016.05.11-04.20.38:164][389]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.20.38:164][389]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2016.05.11-04.20.38:164][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004383s)
+[2016.05.11-04.20.38:251][389]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.20.38:267][389]LogInit: FAudioDevice initialized.
+[2016.05.11-04.20.38:432][389]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.20.38:462][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-00.20.38
+[2016.05.11-04.20.38:463][389]LogWorld: Bringing up level for play took: 0.004429
+[2016.05.11-04.20.38:550][389]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 9 classes and 0 folders.
+[2016.05.11-04.20.38:552][389]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.89
+[2016.05.11-04.20.44:188][635]MaterialEditorStats: Info Base pass shader with static lighting: 77 instructions
+[2016.05.11-04.20.44:188][635]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2016.05.11-04.20.44:188][635]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.20.44:188][635]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.20.56:491][161]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	BPEnemy_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BPEnemy_C_1
+	Function /Game/Blueprints/BPEnemy.BPEnemy_C:ExecuteUbergraph_BPEnemy:03F9
+[2016.05.11-04.20.56:492][161]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_BPEnemy' from node: Branch in graph: EventGraph in object: BPEnemy
+[2016.05.11-04.20.56:536][163]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	BPEnemy2_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BPEnemy2_C_4
+	Function /Game/Blueprints/BPEnemy2.BPEnemy2_C:ExecuteUbergraph_BPEnemy2:03F9
+[2016.05.11-04.20.56:537][163]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_BPEnemy2' from node: Branch in graph: EventGraph in object: BPEnemy2
+[2016.05.11-04.20.56:540][163]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	BPEnemy_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BPEnemy_C_2
+	Function /Game/Blueprints/BPEnemy.BPEnemy_C:ExecuteUbergraph_BPEnemy:03F9
+[2016.05.11-04.20.56:540][163]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_BPEnemy' from node: Branch in graph: EventGraph in object: BPEnemy
+[2016.05.11-04.20.56:676][169]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	BPEnemy2_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BPEnemy2_C_1
+	Function /Game/Blueprints/BPEnemy2.BPEnemy2_C:ExecuteUbergraph_BPEnemy2:03F9
+[2016.05.11-04.20.56:676][169]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_BPEnemy2' from node: Branch in graph: EventGraph in object: BPEnemy2
+[2016.05.11-04.20.56:677][169]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	BPEnemy_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BPEnemy_C_0
+	Function /Game/Blueprints/BPEnemy.BPEnemy_C:ExecuteUbergraph_BPEnemy:03F9
+[2016.05.11-04.20.56:678][169]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue from function: 'ExecuteUbergraph_BPEnemy' from node: Branch in graph: EventGraph in object: BPEnemy
+[2016.05.11-04.23.36:840][962]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.23.36:851][962]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.23.36:915][962]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.23.42:975][238]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.23.44:177][238]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.23.44:216][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.23.44:266][238]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.23.44:343][238]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.23.44:368][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.23.51:844][238]LogSavePackage: Save=20.99ms
+[2016.05.11-04.23.51:844][238]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background7A9200F84D2D2651771865953345520D.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.23.51:847][238]LogSavePackage: Total save time: 125.46ms
+[2016.05.11-04.23.51:847][238]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.23.51:866][239]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2016.05.11-04.23.51:866][239]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2016.05.11-04.23.51:866][239]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.23.51:866][239]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.23.58:452][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.23.58:452][608]PIE: New page: PIE session: Main (May 10, 2016, 7:23:58 PM)
+[2016.05.11-04.23.58:452][608]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.23.58:454][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001980s)
+[2016.05.11-04.23.58:455][608]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.23.58:455][608]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2016.05.11-04.23.58:455][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003260s)
+[2016.05.11-04.23.58:483][608]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.23.58:490][608]LogInit: FAudioDevice initialized.
+[2016.05.11-04.23.58:521][608]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.23.58:525][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-00.23.58
+[2016.05.11-04.23.58:525][608]LogWorld: Bringing up level for play took: 0.003267
+[2016.05.11-04.23.58:529][608]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.866
+[2016.05.11-04.24.13:055][469]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.05.11-04.24.21:274][950]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.05.11-04.25.07:542][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.11-04.25.07:610][322]LogSavePackage: Save=31.28ms
+[2016.05.11-04.25.07:610][322]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Main4146F8B4464204ABDD03E49158BC863D.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap'
+[2016.05.11-04.25.07:612][322]LogSavePackage: Total save time: 51.17ms
+[2016.05.11-04.25.07:612][322]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap
+[2016.05.11-04.25.57:075][769]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.25.57:170][769]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.25.57:178][769]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.25.57:207][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.05.11-04.25.57:212][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.05.11-04.25.57:218][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.05.11-04.25.57:237][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.11-04.25.57:256][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.05.11-04.25.57:262][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.05.11-04.25.57:280][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.05.11-04.25.57:286][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.05.11-04.25.57:291][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.25.57:320][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_3, compiling. 
+[2016.05.11-04.25.57:354][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_4, compiling. 
+[2016.05.11-04.26.07:638][269]MaterialEditorStats: Info Base pass shader with static lighting: 77 instructions
+[2016.05.11-04.26.07:638][269]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2016.05.11-04.26.07:638][269]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.26.07:638][269]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.26.27:213][176]LogTexture:Display: Building textures: PathNode (AutoDXT)
+[2016.05.11-04.26.27:288][176]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.26.27:301][176]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.26.27:331][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.26.36:050][566]MaterialEditorStats: Info Base pass shader with static lighting: 77 instructions
+[2016.05.11-04.26.36:050][566]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2016.05.11-04.26.36:050][566]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.26.36:050][566]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.26.45:417][ 26]LogTexture:Display: Building textures: S_PolyMarker (AutoDXT)
+[2016.05.11-04.26.45:481][ 26]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.26.45:491][ 26]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.26.45:535][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.26.48:776][188]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.26.49:819][188]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.26.49:857][188]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.26.49:884][188]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.26.49:941][188]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.26.49:967][188]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.26.57:476][188]LogSavePackage: Save=16.89ms
+[2016.05.11-04.26.57:476][188]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background9CB37D9047A6022299CAAF8FBAC56E41.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.26.57:479][188]LogSavePackage: Total save time: 102.87ms
+[2016.05.11-04.26.57:479][188]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.26.57:497][189]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2016.05.11-04.26.57:497][189]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2016.05.11-04.26.57:497][189]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.26.57:497][189]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.27.25:119][691]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.27.25:128][691]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.27.25:225][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.05.11-04.27.30:613][955]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.27.31:645][955]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.27.31:683][955]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.27.31:719][955]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.27.31:774][955]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.27.31:799][955]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.27.39:018][955]LogSavePackage: Save=16.72ms
+[2016.05.11-04.27.39:018][955]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background9B1D0C7B4E5946CF2EB26C8E6C478E21.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.27.39:022][955]LogSavePackage: Total save time: 39.68ms
+[2016.05.11-04.27.39:022][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.27.39:041][956]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2016.05.11-04.27.39:041][956]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2016.05.11-04.27.39:041][956]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.27.39:041][956]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.27.42:196][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.27.42:196][140]PIE: New page: PIE session: Main (May 10, 2016, 7:27:42 PM)
+[2016.05.11-04.27.42:196][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.27.42:198][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001698s)
+[2016.05.11-04.27.42:199][140]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.27.42:199][140]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2016.05.11-04.27.42:199][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002756s)
+[2016.05.11-04.27.42:222][140]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.27.42:229][140]LogInit: FAudioDevice initialized.
+[2016.05.11-04.27.42:261][140]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.27.42:264][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-00.27.42
+[2016.05.11-04.27.42:264][140]LogWorld: Bringing up level for play took: 0.002667
+[2016.05.11-04.27.42:266][140]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.604
+[2016.05.11-04.27.58:868][ 98]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2016.05.11-04.30.01:782][138]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 108 classes and 0 folders.
+[2016.05.11-04.31.28:966][ 58]BlueprintLog: New page: Compile BPPlayer
+[2016.05.11-04.31.29:228][ 58]BlueprintEditorCompileResults: Info [0870.27] Compile of BPPlayer successful! [in 262 ms]
+[2016.05.11-04.31.31:695][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.31.31:695][197]PIE: New page: PIE session: Main (May 10, 2016, 7:31:31 PM)
+[2016.05.11-04.31.31:695][197]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.31.31:698][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002315s)
+[2016.05.11-04.31.31:699][197]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.31.31:699][197]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2016.05.11-04.31.31:699][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003806s)
+[2016.05.11-04.31.31:738][197]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.31.31:745][197]LogInit: FAudioDevice initialized.
+[2016.05.11-04.31.31:780][197]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.31.31:786][197]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-00.31.31
+[2016.05.11-04.31.31:787][197]LogWorld: Bringing up level for play took: 0.006426
+[2016.05.11-04.31.31:789][197]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.127
+[2016.05.11-04.31.47:494][986]BlueprintLog: New page: Compile BPPlayer
+[2016.05.11-04.31.47:719][986]BlueprintEditorCompileResults: Info [0888.76] Compile of BPPlayer successful! [in 225 ms]
+[2016.05.11-04.31.50:114][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.31.50:114][125]PIE: New page: PIE session: Main (May 10, 2016, 7:31:50 PM)
+[2016.05.11-04.31.50:115][125]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.31.50:117][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002174s)
+[2016.05.11-04.31.50:117][125]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.31.50:118][125]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2016.05.11-04.31.50:118][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003290s)
+[2016.05.11-04.31.50:163][125]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.31.50:171][125]LogInit: FAudioDevice initialized.
+[2016.05.11-04.31.50:203][125]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.31.50:206][125]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-00.31.50
+[2016.05.11-04.31.50:206][125]LogWorld: Bringing up level for play took: 0.002848
+[2016.05.11-04.31.50:208][125]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.546
+[2016.05.11-04.32.11:943][248]BlueprintLog: New page: Compile BPPlayer
+[2016.05.11-04.32.12:170][248]BlueprintEditorCompileResults: Info [0913.21] Compile of BPPlayer successful! [in 226 ms]
+[2016.05.11-04.36.03:929][446]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.046
+[2016.05.11-04.36.03:934][446]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BPPlayer] ([1] browsable assets)...
+[2016.05.11-04.36.04:007][446]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BPPlayer.BPPlayer]
+[2016.05.11-04.36.04:007][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BPPlayer]
+[2016.05.11-04.36.04:305][446]LogSavePackage: Save=241.24ms
+[2016.05.11-04.36.04:305][446]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPPlayer_Auto1601AA854444036336135268D26153365.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Autosaves/Game/Blueprints/BPPlayer_Auto1.uasset'
+[2016.05.11-04.36.04:323][446]LogSavePackage: Total save time: 313.79ms
+[2016.05.11-04.36.04:323][446]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Autosaves/Game/Blueprints/BPPlayer_Auto1.uasset
+[2016.05.11-04.36.04:323][446]LogFileHelpers: Auto-saving content packages took 0.394
+[2016.05.11-04.38.11:141][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.38.11:142][910]PIE: New page: PIE session: Main (May 10, 2016, 7:38:11 PM)
+[2016.05.11-04.38.11:142][910]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.38.11:144][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002010s)
+[2016.05.11-04.38.11:145][910]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.38.11:146][910]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2016.05.11-04.38.11:146][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004077s)
+[2016.05.11-04.38.11:198][910]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.38.11:205][910]LogInit: FAudioDevice initialized.
+[2016.05.11-04.38.11:238][910]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.38.11:241][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-00.38.11
+[2016.05.11-04.38.11:242][910]LogWorld: Bringing up level for play took: 0.002947
+[2016.05.11-04.38.11:244][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.419
+[2016.05.11-04.40.21:831][187]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.40.21:841][187]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.40.43:469][130]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.40.43:485][130]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.40.49:174][376]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.40.49:189][376]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.41.20:120][730]MaterialEditorStats: Info Base pass shader with static lighting: 77 instructions
+[2016.05.11-04.41.20:120][730]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2016.05.11-04.41.20:120][730]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.41.20:120][730]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.42.19:768][512]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.42.19:782][512]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.42.30:102][972]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.42.30:121][972]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.42.38:516][360]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.42.38:535][360]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.43.03:104][467]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.43.03:121][467]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.43.16:772][ 90]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.43.16:788][ 90]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.44.00:319][ 53]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.44.00:335][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.44.10:596][501]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.44.10:611][501]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.44.24:171][100]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.44.24:187][100]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.44.41:152][794]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.44.41:167][794]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.44.48:423][ 79]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.44.48:438][ 79]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.44.51:835][214]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.44.53:058][214]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.44.53:104][214]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.44.53:178][214]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.44.53:260][214]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.44.53:293][214]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.45.06:325][214]LogSavePackage: Save=26.71ms
+[2016.05.11-04.45.06:325][214]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BackgroundC20C968E42B4D23639CFAFB5CBC58441.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.45.06:329][214]LogSavePackage: Total save time: 66.09ms
+[2016.05.11-04.45.06:330][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.45.06:340][214]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.45.06:340][214]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.45.06:340][214]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.45.06:340][214]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.45.26:453][ 72]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.45.26:463][ 72]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.45.30:986][254]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.45.31:002][254]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.45.32:905][330]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.45.33:965][330]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.45.34:005][330]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.45.34:097][330]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.45.34:183][330]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.45.34:211][330]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.45.46:834][330]LogSavePackage: Save=22.63ms
+[2016.05.11-04.45.46:834][330]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background028A722C4E706C196DF277999DD7768C.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.45.46:839][330]LogSavePackage: Total save time: 57.81ms
+[2016.05.11-04.45.46:839][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.45.46:846][330]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.45.46:846][330]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.45.46:846][330]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.45.46:846][330]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.45.59:326][859]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.45.59:340][859]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.05:956][125]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.46.05:970][125]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.08:844][239]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.46.09:952][239]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.46.09:993][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.10:040][239]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.46.10:099][239]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.46.10:127][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.21:490][239]LogSavePackage: Save=25.92ms
+[2016.05.11-04.46.21:490][239]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BackgroundD4BF50344E77606D5985B6899C3982D2.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.46.21:497][239]LogSavePackage: Total save time: 56.78ms
+[2016.05.11-04.46.21:497][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.46.21:504][239]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.46.21:504][239]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.46.21:504][239]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.46.21:504][239]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.46.36:646][873]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.46.36:661][873]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.42:681][113]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.46.42:700][113]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.44:340][179]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.46.45:406][179]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.46.45:444][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.45:485][179]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.46.45:546][179]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.46.45:574][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.46.57:791][179]LogSavePackage: Save=22.09ms
+[2016.05.11-04.46.57:791][179]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background448360864D5DFFB9568C9EAD62DAD749.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.46.57:796][179]LogSavePackage: Total save time: 48.56ms
+[2016.05.11-04.46.57:796][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.46.57:803][179]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.46.57:803][179]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.46.57:803][179]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.46.57:803][179]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.47.10:673][733]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.47.10:685][733]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.47.17:837][ 14]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.47.17:856][ 14]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.47.20:589][117]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.47.21:687][117]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.47.21:729][117]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.47.21:764][117]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.47.21:826][117]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.47.21:854][117]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.47.34:585][117]LogSavePackage: Save=23.63ms
+[2016.05.11-04.47.34:585][117]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BackgroundCC4D8BFE41E09880A49181AE2DB823DD.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.47.34:590][117]LogSavePackage: Total save time: 50.85ms
+[2016.05.11-04.47.34:590][117]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.47.34:600][117]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.47.34:600][117]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.47.34:600][117]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.47.34:600][117]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.47.38:041][263]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.47.38:103][263]LogSavePackage: Save=7.07ms
+[2016.05.11-04.47.38:103][263]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background1B1AC5EF48F48E75C94658A48852E67F.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.47.38:105][263]LogSavePackage: Total save time: 33.07ms
+[2016.05.11-04.47.38:105][263]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.47.40:372][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.47.40:372][394]PIE: New page: PIE session: Main (May 10, 2016, 7:47:40 PM)
+[2016.05.11-04.47.40:372][394]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.47.40:374][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001782s)
+[2016.05.11-04.47.40:375][394]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.47.40:375][394]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2016.05.11-04.47.40:375][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002904s)
+[2016.05.11-04.47.40:419][394]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.47.40:427][394]LogInit: FAudioDevice initialized.
+[2016.05.11-04.47.40:464][394]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.47.40:469][394]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-00.47.40
+[2016.05.11-04.47.40:470][394]LogWorld: Bringing up level for play took: 0.004905
+[2016.05.11-04.47.40:472][394]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.81
+[2016.05.11-04.52.26:946][105]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.52.26:954][105]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.52.41:859][779]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.05.11-04.52.41:859][779]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.05.11-04.52.41:859][779]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.52.41:859][779]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.52.49:520][156]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.52.49:529][156]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.53.02:501][752]MaterialEditorStats: Info Base pass shader with static lighting: 79 instructions
+[2016.05.11-04.53.02:501][752]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.05.11-04.53.02:501][752]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.53.02:501][752]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.11-04.53.07:811][ 10]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.53.07:820][ 10]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.53.13:706][283]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.53.13:726][283]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.53.13:758][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.05.11-04.53.29:643][  3]MaterialEditorStats: Info Base pass shader with static lighting: 79 instructions
+[2016.05.11-04.53.29:643][  3]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.05.11-04.53.29:643][  3]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.53.29:643][  3]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.11-04.53.54:930][296]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.53.54:941][296]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.54.00:140][508]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.54.00:155][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.54.00:183][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.05.11-04.54.06:259][763]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.54.06:277][763]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.54.09:225][889]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.54.09:243][889]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.54.09:272][889]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.05.11-04.54.22:150][458]MaterialEditorStats: Info Base pass shader with static lighting: 79 instructions
+[2016.05.11-04.54.22:150][458]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.05.11-04.54.22:150][458]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.54.22:150][458]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.11-04.54.57:164][309]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.54.57:174][309]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.55.07:399][768]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.55.08:482][768]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.55.08:504][768]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.55.08:540][768]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.55.08:602][768]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.55.08:630][768]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.55.16:910][768]LogSavePackage: Save=20.34ms
+[2016.05.11-04.55.16:910][768]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BackgroundAB8800874C5F62CD17491BABB6C0CD87.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.55.16:913][768]LogSavePackage: Total save time: 55.04ms
+[2016.05.11-04.55.16:913][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.55.16:919][768]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.55.16:919][768]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.55.16:919][768]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.55.16:919][768]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.55.22:690][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.55.22:690][124]PIE: New page: PIE session: Main (May 10, 2016, 7:55:22 PM)
+[2016.05.11-04.55.22:691][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.55.22:694][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003281s)
+[2016.05.11-04.55.22:695][124]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.55.22:695][124]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2016.05.11-04.55.22:695][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004891s)
+[2016.05.11-04.55.22:747][124]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.55.22:755][124]LogInit: FAudioDevice initialized.
+[2016.05.11-04.55.22:788][124]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.55.22:792][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-00.55.22
+[2016.05.11-04.55.22:792][124]LogWorld: Bringing up level for play took: 0.002898
+[2016.05.11-04.55.22:794][124]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.868
+[2016.05.11-04.56.09:060][101]LogTexture:Display: Building textures: T_Base_Tile_Normal (BC5)
+[2016.05.11-04.56.10:301][101]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.56.10:311][101]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.56.10:342][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.56.12:504][198]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.56.13:642][198]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.56.13:683][198]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.56.13:713][198]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.56.13:792][198]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.56.13:822][198]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.56.22:537][198]LogSavePackage: Save=18.63ms
+[2016.05.11-04.56.22:537][198]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BackgroundB4E46FBE413C910A9B0C2D9860EFEE8D.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.56.22:541][198]LogSavePackage: Total save time: 48.08ms
+[2016.05.11-04.56.22:541][198]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.56.22:550][198]MaterialEditorStats: Info Base pass shader with static lighting: 117 instructions
+[2016.05.11-04.56.22:551][198]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 87 instructions
+[2016.05.11-04.56.22:551][198]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.56.22:551][198]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.56.27:214][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.56.27:214][473]PIE: New page: PIE session: Main (May 10, 2016, 7:56:27 PM)
+[2016.05.11-04.56.27:214][473]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.56.27:218][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004093s)
+[2016.05.11-04.56.27:221][473]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.56.27:221][473]LogPlayLevel: PIE: World Init took: (0.002455s)
+[2016.05.11-04.56.27:221][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006887s)
+[2016.05.11-04.56.27:266][473]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.56.27:273][473]LogInit: FAudioDevice initialized.
+[2016.05.11-04.56.27:311][473]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.56.27:317][473]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-00.56.27
+[2016.05.11-04.56.27:318][473]LogWorld: Bringing up level for play took: 0.005610
+[2016.05.11-04.56.27:320][473]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.342
+[2016.05.11-04.56.49:673][680]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.56.49:683][680]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.57.00:449][ 69]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.05.11-04.57.00:449][ 69]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.11-04.57.00:449][ 69]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.57.00:449][ 69]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.57.09:368][452]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.57.09:379][452]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.57.09:430][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.05.11-04.57.19:257][803]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.05.11-04.57.19:257][803]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.11-04.57.19:257][803]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.57.19:257][803]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.57.26:233][ 88]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.57.26:244][ 88]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.57.26:271][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.05.11-04.57.35:940][440]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.05.11-04.57.35:940][440]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.11-04.57.35:940][440]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.57.35:940][440]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.57.46:199][872]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.57.46:211][872]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.57.46:236][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.05.11-04.57.55:754][205]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.05.11-04.57.55:754][205]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.11-04.57.55:754][205]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.57.55:754][205]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.58.03:480][520]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.58.03:489][520]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.58.03:519][520]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.05.11-04.58.12:761][844]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2016.05.11-04.58.12:761][844]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.11-04.58.12:761][844]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.58.12:761][844]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-04.58.13:310][850]LogTexture:Display: Building textures: T_Base_Tile_Diffuse (DXT1)
+[2016.05.11-04.58.23:041][850]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.58.23:056][850]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.58.23:098][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.58.24:186][891]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.58.25:326][891]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.58.25:364][891]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.58.25:399][891]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.58.25:458][891]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.58.25:487][891]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.58.34:349][891]LogSavePackage: Save=18.77ms
+[2016.05.11-04.58.34:349][891]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BackgroundCFAC0C2044082D09591CC38BFA66DB75.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.58.34:352][891]LogSavePackage: Total save time: 40.92ms
+[2016.05.11-04.58.34:352][891]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.58.34:379][892]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.58.34:379][892]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.58.34:379][892]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.58.34:379][892]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-04.58.39:086][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-04.58.39:087][156]PIE: New page: PIE session: Main (May 10, 2016, 7:58:39 PM)
+[2016.05.11-04.58.39:087][156]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-04.58.39:089][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002045s)
+[2016.05.11-04.58.39:090][156]LogAIModule: Creating AISystem for world Main
+[2016.05.11-04.58.39:090][156]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2016.05.11-04.58.39:090][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003313s)
+[2016.05.11-04.58.39:141][156]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-04.58.39:153][156]LogInit: FAudioDevice initialized.
+[2016.05.11-04.58.39:187][156]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-04.58.39:190][156]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-00.58.39
+[2016.05.11-04.58.39:191][156]LogWorld: Bringing up level for play took: 0.002709
+[2016.05.11-04.58.39:193][156]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.469
+[2016.05.11-04.59.05:882][587]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.05:891][587]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.08:288][696]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.08:303][696]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.10:783][809]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.10:800][809]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.13:284][922]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.13:300][922]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.13:328][922]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.05.11-04.59.22:226][334]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.22:245][334]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.24:948][459]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.24:964][459]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.25:001][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.59.30:390][702]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.30:408][702]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.32:950][822]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.32:967][822]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.32:993][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-04.59.35:550][945]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-04.59.36:649][945]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-04.59.36:690][945]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.36:756][945]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.59.36:830][945]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-04.59.36:856][945]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-04.59.45:578][945]LogSavePackage: Save=20.28ms
+[2016.05.11-04.59.45:578][945]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background1CD0C05D4B544DC78D59E1A543246B8E.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-04.59.45:583][945]LogSavePackage: Total save time: 66.13ms
+[2016.05.11-04.59.45:583][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-04.59.45:596][946]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-04.59.45:596][946]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-04.59.45:596][946]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-04.59.45:596][946]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-05.00.00:858][709]LogTexture:Display: Building textures: smoothNormalSphere (AutoDXT)
+[2016.05.11-05.00.01:279][709]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.00.01:287][709]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.00.01:317][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.05.11-05.00.16:991][440]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.05.11-05.00.16:991][440]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.05.11-05.00.16:991][440]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.00.16:991][440]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-05.00.19:043][541]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-05.00.19:696][541]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.00.19:720][541]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.00.19:747][541]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-05.00.19:802][541]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-05.00.19:828][541]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.00.28:169][541]LogSavePackage: Save=20.32ms
+[2016.05.11-05.00.28:169][541]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BackgroundB1635BCC47801A09F482D981C9BA09F1.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-05.00.28:176][541]LogSavePackage: Total save time: 65.01ms
+[2016.05.11-05.00.28:176][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-05.00.28:189][542]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-05.00.28:189][542]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-05.00.28:189][542]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.00.28:189][542]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-05.00.31:175][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.00.31:175][737]PIE: New page: PIE session: Main (May 10, 2016, 8:00:31 PM)
+[2016.05.11-05.00.31:175][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.00.31:177][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002090s)
+[2016.05.11-05.00.31:178][737]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.00.31:178][737]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2016.05.11-05.00.31:179][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003381s)
+[2016.05.11-05.00.31:223][737]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.00.31:230][737]LogInit: FAudioDevice initialized.
+[2016.05.11-05.00.31:262][737]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.00.31:265][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-01.00.31
+[2016.05.11-05.00.31:266][737]LogWorld: Bringing up level for play took: 0.003040
+[2016.05.11-05.00.31:271][737]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.392
+[2016.05.11-05.01.40:180][613]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.01.40:192][613]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.01.40:217][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.05.11-05.01.56:853][299]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.05.11-05.01.56:853][299]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.05.11-05.01.56:853][299]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.01.56:853][299]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-05.02.01:067][485]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.02.01:079][485]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.02.01:112][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.05.11-05.02.13:063][979]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.05.11-05.02.13:063][979]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.05.11-05.02.13:063][979]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.02.13:063][979]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-05.02.16:232][110]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.02.16:243][110]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.02.16:272][110]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.05.11-05.02.28:408][640]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.05.11-05.02.28:408][640]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.05.11-05.02.28:408][640]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.02.28:408][640]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-05.02.48:309][640]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.02.48:321][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.02.48:350][640]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.05.11-05.03.00:310][168]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.05.11-05.03.00:310][168]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.05.11-05.03.00:310][168]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.03.00:310][168]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-05.03.16:864][977]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.03.16:874][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.03.16:907][977]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.05.11-05.03.29:423][544]MaterialEditorStats: Info Base pass shader with static lighting: 83 instructions
+[2016.05.11-05.03.29:423][544]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2016.05.11-05.03.29:423][544]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.03.29:423][544]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.05.11-05.03.34:360][824]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-05.03.35:008][824]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.11-05.03.35:029][824]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.03.35:064][824]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-05.03.35:124][824]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2016.05.11-05.03.35:151][824]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.03.43:588][824]LogSavePackage: Save=19.57ms
+[2016.05.11-05.03.43:588][824]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background60F4401F4AC3E7A7B8EBE5B4849764BB.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-05.03.43:592][824]LogSavePackage: Total save time: 115.33ms
+[2016.05.11-05.03.43:592][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-05.03.43:616][825]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2016.05.11-05.03.43:616][825]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2016.05.11-05.03.43:616][825]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.05.11-05.03.43:616][825]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.05.11-05.03.46:269][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.03.46:269][ 16]PIE: New page: PIE session: Main (May 10, 2016, 8:03:46 PM)
+[2016.05.11-05.03.46:269][ 16]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.03.46:272][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002994s)
+[2016.05.11-05.03.46:274][ 16]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.03.46:275][ 16]LogPlayLevel: PIE: World Init took: (0.002655s)
+[2016.05.11-05.03.46:276][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006598s)
+[2016.05.11-05.03.46:314][ 16]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.03.46:323][ 16]LogInit: FAudioDevice initialized.
+[2016.05.11-05.03.46:359][ 16]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.03.46:362][ 16]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-01.03.46
+[2016.05.11-05.03.46:362][ 16]LogWorld: Bringing up level for play took: 0.003181
+[2016.05.11-05.03.46:366][ 16]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.703
+[2016.05.11-05.04.12:646][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.11-05.04.12:762][517]LogSavePackage: Save=32.31ms
+[2016.05.11-05.04.12:762][517]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/MainC3C3BC574DA5E16E3601CDB7CE02C1AF.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap'
+[2016.05.11-05.04.12:765][517]LogSavePackage: Total save time: 81.18ms
+[2016.05.11-05.04.12:765][517]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap
+[2016.05.11-05.09.24:344][251]BlueprintLog: New page: Compile BPEnemy2
+[2016.05.11-05.09.24:532][251]BlueprintEditorCompileResults: Info [3145.58] Compile of BPEnemy2 successful! [in 188 ms]
+[2016.05.11-05.09.26:687][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.09.26:687][376]PIE: New page: PIE session: Main (May 10, 2016, 8:09:26 PM)
+[2016.05.11-05.09.26:687][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.09.26:689][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002010s)
+[2016.05.11-05.09.26:690][376]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.09.26:690][376]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2016.05.11-05.09.26:691][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003271s)
+[2016.05.11-05.09.26:736][376]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.09.26:744][376]LogInit: FAudioDevice initialized.
+[2016.05.11-05.09.26:779][376]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.09.26:784][376]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-01.09.26
+[2016.05.11-05.09.26:785][376]LogWorld: Bringing up level for play took: 0.004066
+[2016.05.11-05.09.26:787][376]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.876
+[2016.05.11-05.10.20:424][869]BlueprintLog: New page: Compile BPEnemy2
+[2016.05.11-05.10.20:591][869]BlueprintEditorCompileResults: Info [3201.63] Compile of BPEnemy2 successful! [in 167 ms]
+[2016.05.11-05.12.15:776][745]LogMaterialEditor: Saving and Compiling material Background
+[2016.05.11-05.12.15:922][745]LogSavePackage: Save=10.42ms
+[2016.05.11-05.12.15:923][745]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Background45E9CE8D41E889FD79E632803FCA0230.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset'
+[2016.05.11-05.12.15:925][745]LogSavePackage: Total save time: 110.68ms
+[2016.05.11-05.12.15:925][745]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Materials/Background.uasset
+[2016.05.11-05.12.22:226][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPPlayer" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPPlayer.uasset" SILENT=true
+[2016.05.11-05.12.22:481][ 97]LogSavePackage: Save=231.24ms
+[2016.05.11-05.12.22:481][ 97]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPPlayer890431DE4E2C76D6E0B14B889578905E.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPPlayer.uasset'
+[2016.05.11-05.12.22:486][ 97]LogSavePackage: Total save time: 255.79ms
+[2016.05.11-05.12.22:486][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPPlayer.uasset
+[2016.05.11-05.12.22:524][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPEnemy2" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPEnemy2.uasset" SILENT=true
+[2016.05.11-05.12.22:792][ 97]LogSavePackage: Save=182.44ms
+[2016.05.11-05.12.22:792][ 97]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPEnemy2B108D3D94455D52FA4207A9CCA3E4397.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPEnemy2.uasset'
+[2016.05.11-05.12.22:796][ 97]LogSavePackage: Total save time: 268.47ms
+[2016.05.11-05.12.22:796][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPEnemy2.uasset
+[2016.05.11-05.13.28:332][842]BlueprintLog: New page: Compile BPProjectileEnemy
+[2016.05.11-05.13.28:650][842]BlueprintEditorCompileResults: Info [3389.69] Compile of BPProjectileEnemy successful! [in 318 ms]
+[2016.05.11-05.13.59:755][704]BlueprintLog: New page: Compile BPProjectileEnemy
+[2016.05.11-05.13.59:893][704]BlueprintEditorCompileResults: Info [3420.94] Compile of BPProjectileEnemy successful! [in 138 ms]
+[2016.05.11-05.14.11:069][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.14.11:069][363]PIE: New page: PIE session: Main (May 10, 2016, 8:14:11 PM)
+[2016.05.11-05.14.11:069][363]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.14.11:072][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002695s)
+[2016.05.11-05.14.11:073][363]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.14.11:073][363]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2016.05.11-05.14.11:073][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003922s)
+[2016.05.11-05.14.11:124][363]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.14.11:133][363]LogInit: FAudioDevice initialized.
+[2016.05.11-05.14.11:166][363]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.14.11:169][363]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-01.14.11
+[2016.05.11-05.14.11:170][363]LogWorld: Bringing up level for play took: 0.002667
+[2016.05.11-05.14.11:172][363]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.491
+[2016.05.11-05.15.00:541][235]BlueprintLog: New page: Compile BPEnemy
+[2016.05.11-05.15.00:712][235]BlueprintEditorCompileResults: Info [3481.76] Compile of BPEnemy successful! [in 171 ms]
+[2016.05.11-05.15.02:994][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.15.02:994][370]PIE: New page: PIE session: Main (May 10, 2016, 8:15:02 PM)
+[2016.05.11-05.15.02:995][370]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.15.02:996][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001612s)
+[2016.05.11-05.15.02:997][370]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.15.02:997][370]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2016.05.11-05.15.02:997][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002768s)
+[2016.05.11-05.15.03:060][370]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.15.03:068][370]LogInit: FAudioDevice initialized.
+[2016.05.11-05.15.03:104][370]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.15.03:108][370]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-01.15.03
+[2016.05.11-05.15.03:109][370]LogWorld: Bringing up level for play took: 0.004151
+[2016.05.11-05.15.03:115][370]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.548
+[2016.05.11-05.16.05:210][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.043
+[2016.05.11-05.16.05:217][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BPEnemy] ([1] browsable assets)...
+[2016.05.11-05.16.05:237][264]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BPEnemy.BPEnemy]
+[2016.05.11-05.16.05:237][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BPEnemy]
+[2016.05.11-05.16.05:519][264]LogSavePackage: Save=197.16ms
+[2016.05.11-05.16.05:519][264]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPEnemy_Auto2AA97937A4FE2CD43C0FB5C9C18D7D176.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Autosaves/Game/Blueprints/BPEnemy_Auto2.uasset'
+[2016.05.11-05.16.05:535][264]LogSavePackage: Total save time: 296.82ms
+[2016.05.11-05.16.05:535][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Autosaves/Game/Blueprints/BPEnemy_Auto2.uasset
+[2016.05.11-05.16.05:540][264]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BPProjectileEnemy] ([1] browsable assets)...
+[2016.05.11-05.16.05:560][264]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BPProjectileEnemy.BPProjectileEnemy]
+[2016.05.11-05.16.05:560][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BPProjectileEnemy]
+[2016.05.11-05.16.05:645][264]LogSavePackage: Save=61.05ms
+[2016.05.11-05.16.05:645][264]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPProjectileEnemy_Auto257EC9F414080CC47B359DBA245943D3D.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Autosaves/Game/Blueprints/BPProjectileEnemy_Auto2.uasset'
+[2016.05.11-05.16.05:648][264]LogSavePackage: Total save time: 85.94ms
+[2016.05.11-05.16.05:648][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Autosaves/Game/Blueprints/BPProjectileEnemy_Auto2.uasset
+[2016.05.11-05.16.05:648][264]LogFileHelpers: Auto-saving content packages took 0.437
+[2016.05.11-05.20.23:756][448]BlueprintLog: New page: Compile BPEnemy
+[2016.05.11-05.20.23:930][448]BlueprintEditorCompileResults: Info [3804.97] Compile of BPEnemy successful! [in 173 ms]
+[2016.05.11-05.20.26:039][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.20.26:039][567]PIE: New page: PIE session: Main (May 10, 2016, 8:20:26 PM)
+[2016.05.11-05.20.26:039][567]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.20.26:041][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001626s)
+[2016.05.11-05.20.26:042][567]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.20.26:042][567]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2016.05.11-05.20.26:042][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002920s)
+[2016.05.11-05.20.26:084][567]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.20.26:092][567]LogInit: FAudioDevice initialized.
+[2016.05.11-05.20.26:132][567]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.20.26:137][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-01.20.26
+[2016.05.11-05.20.26:137][567]LogWorld: Bringing up level for play took: 0.003416
+[2016.05.11-05.20.26:140][567]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.477
+[2016.05.11-05.21.39:376][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:376][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:376][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:377][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:377][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:377][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:377][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:377][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:377][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:377][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:378][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.39:378][515]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.48:957][941]BlueprintLog: New page: Compile BPEnemy
+[2016.05.11-05.21.49:018][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:018][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:018][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:018][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:018][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:018][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:127][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:127][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:128][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:128][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:128][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:128][941]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_53.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.49:132][941]BlueprintEditorCompileResults: Info [3890.18] Compile of BPEnemy successful! [in 175 ms]
+[2016.05.11-05.21.50:692][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.21.50:692][ 31]PIE: New page: PIE session: Main (May 10, 2016, 8:21:50 PM)
+[2016.05.11-05.21.50:693][ 31]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.21.50:695][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002465s)
+[2016.05.11-05.21.50:696][ 31]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.21.50:696][ 31]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2016.05.11-05.21.50:697][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003978s)
+[2016.05.11-05.21.50:750][ 31]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.21.50:757][ 31]LogInit: FAudioDevice initialized.
+[2016.05.11-05.21.50:789][ 31]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.21.50:792][ 31]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-01.21.50
+[2016.05.11-05.21.50:793][ 31]LogWorld: Bringing up level for play took: 0.002833
+[2016.05.11-05.21.50:795][ 31]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.868
+[2016.05.11-05.21.53:066][158]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_4.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.53:066][158]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_4.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.54:698][248]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_5.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.54:698][248]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_5.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.56:685][364]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_6.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.21.56:685][364]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_6.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.01:554][643]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_7.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.01:554][643]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_7.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.07:559][986]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_8.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.07:559][986]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_8.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.11:015][184]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_9.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.11:015][184]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_9.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.14:736][393]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_10.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.14:736][393]PIE:Warning: Warning Invalid Simulate Options: Body (BPEnemy_C_10.Enemy SM_Pixel_Enemy_1) is set to simulate physics but Collision Enabled is incompatible
+[2016.05.11-05.22.28:407][ 32]BlueprintLog: New page: Compile BPEnemy
+[2016.05.11-05.22.28:579][ 32]BlueprintEditorCompileResults: Info [3929.62] Compile of BPEnemy successful! [in 172 ms]
+[2016.05.11-05.22.30:641][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.22.30:641][152]PIE: New page: PIE session: Main (May 10, 2016, 8:22:30 PM)
+[2016.05.11-05.22.30:641][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.22.30:643][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001777s)
+[2016.05.11-05.22.30:644][152]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.22.30:644][152]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2016.05.11-05.22.30:644][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002929s)
+[2016.05.11-05.22.30:692][152]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.22.30:702][152]LogInit: FAudioDevice initialized.
+[2016.05.11-05.22.30:736][152]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.22.30:739][152]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-01.22.30
+[2016.05.11-05.22.30:739][152]LogWorld: Bringing up level for play took: 0.002892
+[2016.05.11-05.22.30:741][152]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.079
+[2016.05.11-05.23.01:717][841]BlueprintLog: New page: Compile BPEnemy
+[2016.05.11-05.23.01:892][841]BlueprintEditorCompileResults: Info [3962.93] Compile of BPEnemy successful! [in 173 ms]
+[2016.05.11-05.23.06:827][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.23.06:828][122]PIE: New page: PIE session: Main (May 10, 2016, 8:23:06 PM)
+[2016.05.11-05.23.06:828][122]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.23.06:830][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001869s)
+[2016.05.11-05.23.06:830][122]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.23.06:831][122]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2016.05.11-05.23.06:831][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003068s)
+[2016.05.11-05.23.06:879][122]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.23.06:889][122]LogInit: FAudioDevice initialized.
+[2016.05.11-05.23.06:922][122]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.23.06:925][122]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2016.05.11-01.23.06
+[2016.05.11-05.23.06:925][122]LogWorld: Bringing up level for play took: 0.002697
+[2016.05.11-05.23.06:927][122]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.735
+[2016.05.11-05.24.32:308][747]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.24.32:395][747]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.24.32:404][747]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.24.32:433][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.11-05.24.32:437][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2016.05.11-05.24.32:441][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_3, compiling. 
+[2016.05.11-05.24.44:070][285]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.24.44:086][285]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.24.44:115][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.11-05.24.57:697][680]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.05.11-05.24.57:697][680]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.11-05.24.57:697][680]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.11-05.24.57:697][680]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.11-05.25.14:272][223]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.25.14:282][223]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.25.14:316][223]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.11-05.25.19:871][462]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.25.19:887][462]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.25.19:919][462]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.11-05.25.23:516][612]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.25.23:532][612]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.25.23:560][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.11-05.25.29:745][874]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.25.29:764][874]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.25.29:859][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.11-05.25.42:216][478]LogMaterialEditor: Saving and Compiling material Grey
+[2016.05.11-05.25.43:340][478]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.25.43:379][478]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.25.43:413][478]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.25.43:476][478]LogMaterial: Missing cached shader map for material Grey, compiling. 
+[2016.05.11-05.25.43:500][478]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.11-05.25.51:197][478]LogSavePackage: Save=14.98ms
+[2016.05.11-05.25.51:197][478]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Grey1F43B9264A3A09AC833EBAB8A163F29F.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/Art/Material/Grey.uasset'
+[2016.05.11-05.25.51:201][478]LogSavePackage: Total save time: 47.59ms
+[2016.05.11-05.25.51:201][478]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/Art/Material/Grey.uasset
+[2016.05.11-05.25.51:206][478]MaterialEditorStats: Info Base pass shader with static lighting: 87 instructions
+[2016.05.11-05.25.51:206][478]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2016.05.11-05.25.51:206][478]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.11-05.25.51:206][478]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.11-05.25.53:573][599]LogMaterialEditor: Saving and Compiling material Grey
+[2016.05.11-05.25.53:630][599]LogSavePackage: Save=2.44ms
+[2016.05.11-05.25.53:631][599]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Grey939F4F8044C9ED098C71F09E07E43716.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/Art/Material/Grey.uasset'
+[2016.05.11-05.25.53:633][599]LogSavePackage: Total save time: 25.67ms
+[2016.05.11-05.25.53:633][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/Art/Material/Grey.uasset
+[2016.05.11-05.25.56:054][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.11-05.25.56:155][770]LogSavePackage: Save=33.66ms
+[2016.05.11-05.25.56:155][770]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Main5EFF0A3E482D36468E5D1DAB98FDDA24.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap'
+[2016.05.11-05.25.56:158][770]LogSavePackage: Total save time: 54.00ms
+[2016.05.11-05.25.56:158][770]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap
+[2016.05.11-05.25.58:511][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.25.58:512][941]PIE: New page: PIE session: Main (May 10, 2016, 8:25:58 PM)
+[2016.05.11-05.25.58:512][941]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.25.58:513][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001833s)
+[2016.05.11-05.25.58:514][941]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.25.58:514][941]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2016.05.11-05.25.58:515][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002941s)
+[2016.05.11-05.25.58:562][941]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.25.58:570][941]LogInit: FAudioDevice initialized.
+[2016.05.11-05.25.58:602][941]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.25.58:605][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-01.25.58
+[2016.05.11-05.25.58:605][941]LogWorld: Bringing up level for play took: 0.002764
+[2016.05.11-05.25.58:607][941]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.945
+[2016.05.11-05.27.12:836][144]LogRenderer: Reallocating scene render targets to support 1020x620 (Frame:130905).
+[2016.05.11-05.28.31:221][837]LogSavePackage: Save=9.93ms
+[2016.05.11-05.28.31:221][837]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/SM_Pixel_DudeEE555D2A4601AD8F9D7BF69BA1BFFF2C.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.uasset'
+[2016.05.11-05.28.31:225][837]LogSavePackage: Total save time: 42.89ms
+[2016.05.11-05.28.31:225][837]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.uasset
+[2016.05.11-05.29.28:583][369]LogStaticMesh: Building static mesh SM_Pixel_Dude...
+[2016.05.11-05.29.28:690][369]LogStaticMesh: Built static mesh [0.11s] /Game/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.SM_Pixel_Dude
+[2016.05.11-05.29.40:232][742]LogStaticMesh: Building static mesh SM_Pixel_Dude...
+[2016.05.11-05.29.40:250][742]LogStaticMesh: Built static mesh [0.02s] /Game/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.SM_Pixel_Dude
+[2016.05.11-05.29.53:562][267]LogSavePackage: Save=10.33ms
+[2016.05.11-05.29.53:562][267]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/SM_Pixel_DudeABFDD68845A186617C16D1A163279A27.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.uasset'
+[2016.05.11-05.29.53:567][267]LogSavePackage: Total save time: 46.35ms
+[2016.05.11-05.29.53:567][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.uasset
+[2016.05.11-05.30.33:680][802]LogSavePackage: Save=3.19ms
+[2016.05.11-05.30.33:680][802]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/SM_Pixel_Dude74D13E814A6C7CE1B9C7B78675E9E5A0.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.uasset'
+[2016.05.11-05.30.33:680][802]LogSavePackage: Total save time: 27.39ms
+[2016.05.11-05.30.33:680][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/ExampleContent/Input_Examples/Meshes/SM_Pixel_Dude.uasset
+[2016.05.11-05.30.55:017][821]BlueprintLog: New page: Compile BPPlayer
+[2016.05.11-05.30.55:288][821]BlueprintEditorCompileResults: Info [4436.33] Compile of BPPlayer successful! [in 270 ms]
+[2016.05.11-05.30.57:590][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.11-05.30.57:590][986]PIE: New page: PIE session: Main (May 10, 2016, 8:30:57 PM)
+[2016.05.11-05.30.57:591][986]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2016.05.11-05.30.57:592][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001715s)
+[2016.05.11-05.30.57:593][986]LogAIModule: Creating AISystem for world Main
+[2016.05.11-05.30.57:593][986]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2016.05.11-05.30.57:593][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002745s)
+[2016.05.11-05.30.57:636][986]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.11-05.30.57:660][986]LogInit: FAudioDevice initialized.
+[2016.05.11-05.30.57:691][986]LogWorld: Game class is 'Shooter_C'
+[2016.05.11-05.30.57:694][986]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2016.05.11-01.30.57
+[2016.05.11-05.30.57:695][986]LogWorld: Bringing up level for play took: 0.003011
+[2016.05.11-05.30.57:697][986]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.034
+[2016.05.11-05.33.01:462][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPEnemy" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPEnemy.uasset" SILENT=true
+[2016.05.11-05.33.01:662][586]LogSavePackage: Save=171.62ms
+[2016.05.11-05.33.01:662][586]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPEnemyC5282441484DFBF2AE1DAF92214D0C33.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPEnemy.uasset'
+[2016.05.11-05.33.01:666][586]LogSavePackage: Total save time: 203.09ms
+[2016.05.11-05.33.01:666][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPEnemy.uasset
+[2016.05.11-05.33.01:694][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPPlayer" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPPlayer.uasset" SILENT=true
+[2016.05.11-05.33.01:925][586]LogSavePackage: Save=208.15ms
+[2016.05.11-05.33.01:925][586]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPPlayerF73E6C034D4C661F5BCF73ACC4E99476.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPPlayer.uasset'
+[2016.05.11-05.33.01:928][586]LogSavePackage: Total save time: 233.48ms
+[2016.05.11-05.33.01:928][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPPlayer.uasset
+[2016.05.11-05.33.02:003][586]LogSavePackage: Save=47.95ms
+[2016.05.11-05.33.02:003][586]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/BPProjectileEnemy4C4632F649763732596E42B52CBE3585.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPProjectileEnemy.uasset'
+[2016.05.11-05.33.02:006][586]LogSavePackage: Total save time: 70.69ms
+[2016.05.11-05.33.02:006][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Blueprints/BPProjectileEnemy.uasset
+[2016.05.11-05.33.10:206][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.11-05.33.14:692][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.11-05.33.22:940][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.11-05.33.29:995][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.11-05.33.30:079][941]LogSavePackage: Save=29.84ms
+[2016.05.11-05.33.30:079][941]LogSavePackage: Moving '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Saved/Main231BFE6B4B319F8F45794EBA68093874.tmp' to '../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap'
+[2016.05.11-05.33.30:081][941]LogSavePackage: Total save time: 50.08ms
+[2016.05.11-05.33.30:081][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Uzair Hafeez/Documents/Unreal Projects/HafeezSpaceShooter/Content/Maps/Main.umap
+[2016.05.11-05.33.32:184][132]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.11-05.33.32:467][133]Cmd: QUIT_EDITOR
+[2016.05.11-05.33.32:891][133]LogExit: Preparing to exit.
+[2016.05.11-05.33.33:862][133]LogExit: Editor shut down
+[2016.05.11-05.33.33:862][133]LogExit: Transaction tracking system shut down
+[2016.05.11-05.33.35:926][133]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.11-05.33.35:927][133]LogExit: Object subsystem successfully closed.
+[2016.05.11-05.33.36:217][133]LogD3D11RHI: Shutdown
+[2016.05.11-05.33.36:218][133]LogD3D11RHI: CleanupD3DDevice
+[2016.05.11-05.33.36:429][133]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.11-05.33.36:565][133]LogDerivedDataCache: Shutdown
+[2016.05.11-05.33.37:143][133]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (209)
+[2016.05.11-05.33.37:143][133]LogModuleManager: Shutting down and abandoning module BlueprintGraph (208)
+[2016.05.11-05.33.37:143][133]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.05.11-05.33.37:149][133]LogModuleManager: Shutting down and abandoning module MaterialEditor (206)
+[2016.05.11-05.33.37:149][133]LogModuleManager: Shutting down and abandoning module TextureEditor (205)
+[2016.05.11-05.33.37:185][133]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.05.11-05.33.37:227][133]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.05.11-05.33.37:227][133]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.05.11-05.33.37:227][133]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.11-05.33.37:227][133]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.11-05.33.37:227][133]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.11-05.33.37:257][133]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.11-05.33.37:257][133]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.11-05.33.37:257][133]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.11-05.33.37:276][133]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.11-05.33.37:307][133]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.11-05.33.37:307][133]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.11-05.33.37:318][133]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.11-05.33.37:324][133]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.11-05.33.37:342][133]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.11-05.33.37:342][133]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.11-05.33.37:342][133]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.11-05.33.37:342][133]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.11-05.33.37:342][133]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.11-05.33.37:897][133]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.11-05.33.37:897][133]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.11-05.33.37:897][133]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.11-05.33.37:897][133]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.11-05.33.37:923][133]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.11-05.33.37:923][133]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.11-05.33.37:941][133]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.11-05.33.37:946][133]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.11-05.33.37:951][133]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.11-05.33.37:977][133]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.11-05.33.37:997][133]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.11-05.33.38:005][133]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.11-05.33.38:005][133]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.11-05.33.38:005][133]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.11-05.33.38:015][133]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.11-05.33.38:026][133]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.11-05.33.38:026][133]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.11-05.33.38:026][133]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.11-05.33.38:056][133]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.11-05.33.38:056][133]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.11-05.33.38:115][133]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.11-05.33.38:120][133]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.11-05.33.38:125][133]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.11-05.33.38:137][133]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.11-05.33.38:137][133]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.11-05.33.38:177][133]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.11-05.33.38:235][133]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.11-05.33.38:274][133]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.11-05.33.38:328][133]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.11-05.33.38:328][133]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.11-05.33.38:353][133]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.11-05.33.38:367][133]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.11-05.33.38:411][133]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.11-05.33.38:452][133]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.11-05.33.38:452][133]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.11-05.33.38:452][133]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.11-05.33.38:452][133]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.11-05.33.38:472][133]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.11-05.33.38:487][133]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.11-05.33.38:502][133]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.11-05.33.38:530][133]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.11-05.33.38:530][133]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.11-05.33.38:727][133]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.11-05.33.38:746][133]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.11-05.33.38:774][133]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.11-05.33.38:774][133]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.11-05.33.38:774][133]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.11-05.33.38:799][133]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.11-05.33.38:799][133]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.11-05.33.38:799][133]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.11-05.33.38:799][133]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.11-05.33.38:799][133]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.11-05.33.38:812][133]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.11-05.33.38:848][133]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.11-05.33.38:858][133]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.11-05.33.38:893][133]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.11-05.33.38:893][133]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.11-05.33.38:898][133]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.11-05.33.38:898][133]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.11-05.33.38:898][133]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.11-05.33.38:899][133]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.11-05.33.38:910][133]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.11-05.33.38:911][133]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.11-05.33.38:914][133]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.11-05.33.39:020][133]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.11-05.33.39:021][133]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.11-05.33.39:099][133]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.11-05.33.39:199][133]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.11-05.33.39:199][133]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.11-05.33.39:206][133]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.11-05.33.39:268][133]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.11-05.33.39:268][133]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.11-05.33.39:292][133]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.11-05.33.39:292][133]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.11-05.33.39:292][133]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.11-05.33.39:292][133]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.11-05.33.39:292][133]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.11-05.33.39:292][133]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.11-05.33.39:293][133]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.11-05.33.39:319][133]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.11-05.33.39:319][133]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.11-05.33.39:341][133]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.11-05.33.39:341][133]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.11-05.33.39:341][133]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.11-05.33.39:349][133]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.11-05.33.39:375][133]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.11-05.33.39:420][133]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.11-05.33.39:458][133]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.11-05.33.39:489][133]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.11-05.33.39:489][133]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.11-05.33.39:492][133]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.11-05.33.39:494][133]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.11-05.33.39:494][133]LogDerivedDataCache: Shutdown
+[2016.05.11-05.33.39:494][133]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.11-05.33.39:517][133]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.11-05.33.39:541][133]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.11-05.33.39:552][133]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.11-05.33.39:552][133]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.11-05.33.39:561][133]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.11-05.33.39:596][133]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.11-05.33.39:604][133]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.11-05.33.39:604][133]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.11-05.33.39:604][133]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.11-05.33.39:604][133]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.11-05.33.39:604][133]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.11-05.33.39:604][133]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.11-05.33.39:626][133]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.11-05.33.41:628][133]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.11-05.33.41:653][133]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.11-05.33.41:701][133]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.11-05.33.41:701][133]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.11-05.33.41:701][133]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.11-05.33.41:701][133]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.11-05.33.41:701][133]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.11-05.33.41:717][133]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.11-05.33.41:730][133]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.11-05.33.41:730][133]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.11-05.33.41:730][133]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.11-05.33.41:730][133]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.11-05.33.41:730][133]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.11-05.33.41:730][133]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.11-05.33.41:747][133]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.11-05.33.41:752][133]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.11-05.33.41:766][133]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.11-05.33.41:782][133]LogExit: Exiting.
+[2016.05.11-05.33.41:796][133]Log file closed, 05/11/16 01:33:41
